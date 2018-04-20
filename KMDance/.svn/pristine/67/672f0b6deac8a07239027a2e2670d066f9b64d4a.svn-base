@@ -1,0 +1,33 @@
+//
+//  KMDance-Prefix.pch
+//  KMDance
+//
+//  Created by KM on 17/5/122017.
+//  Copyright © 2017年 KM. All rights reserved.
+//
+
+#ifndef KMDance_Prefix_pch
+#define KMDance_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+//第三方
+#import "BlocksKit.h"
+#import "BlocksKit+UIKit.h"
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+
+#import "TalkingData.h"//talkingData统计
+
+#import "UtilsHeader.h"//通用工具
+#import "KMDExpandHeader.h"//扩展
+
+#import "KMDLoginViewController.h"//登录
+
+#endif
+
+#endif /* KMDance_Prefix_pch */
